@@ -14,6 +14,9 @@ class Color():
         return c
     
 color = Color()
+
 events = None
 delta_time = 0
 framerate = 120
+
+global_offset = pygame.math.Vector2()
